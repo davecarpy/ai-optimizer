@@ -71,13 +71,13 @@ FACTORY_MODELS: list[dict] = [
         'max_input_tokens': 131072,
     },
     {
-        'id': 'llama3.2:3b',
+        'id': 'granite4.1:8b',
         'enabled': False,
         'type': 'll',
         'provider': 'ollama',
         'api_key': '',
         'api_base': 'http://localhost:11434',
-        'max_tokens': 131072,
+        'max_tokens': 16384,
         'max_input_tokens': 131072,
     },
     {
